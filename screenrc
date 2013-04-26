@@ -1,0 +1,5 @@
+escape ``
+hardstatus alwayslastline "%{= kW}%-w%{= kR}%n %t%{= kW}%+w"
+startup_message off
+msgwait 0.5
+defscrollback 10000
