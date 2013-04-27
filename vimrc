@@ -7,12 +7,13 @@ set directory=~/.vim/swaps
 " display settings
 syntax on
 colorscheme slate
-set transparency=8
+if has('transparency')
+    set transparency=8
+end
 set number
 set ruler
 set showmatch
 set hlsearch
-set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 " editing options
 set expandtab
 set tabstop=4
