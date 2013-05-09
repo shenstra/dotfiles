@@ -23,8 +23,8 @@ set backspace=2
 " filetype options
 filetype on
 au! BufRead,BufNewFile Makefile set noexpandtab
-au Filetype ruby set tabstop=2
-au Filetype ruby set shiftwidth=2
+au Filetype ruby,eruby set tabstop=2
+au Filetype ruby,eruby set shiftwidth=2
 " mappings
 let mapleader = ","
 inoremap jj <esc>
